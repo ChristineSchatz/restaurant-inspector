@@ -1,7 +1,9 @@
 $(document).ready(function() {
-  // This is called after the document has loaded in its entirety
-  // This guarantees that any elements we bind to will exist on the page
-  // when we try to bind to them
+  L.mapbox.accessToken = "pk.eyJ1IjoidGhlbG9vcGxhIiwiYSI6ImNpZml1N3AzZGJ3eDZzNG03OWU5ejMycGkifQ.0hWb7amgd-sM1xnJ7GjQnw";
+  var map = L.mapbox.map('map', 'theloopla.nldmla2o').setView([40.7903, -73.9597], 13);
 
-  // See: http://docs.jquery.com/Tutorials:Introducing_$(document).ready()
+  $ajax.({
+
+  })
+
 });
